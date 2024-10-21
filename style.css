@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg);
+    
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(3,190px);
+}
+
+button{
+    background-color: aquamarine;
+    font-size: larger;
+}
+input{
+    grid-column: span 3;
+}
+  
